@@ -12,6 +12,26 @@ A Kubernetes deployment management platform with a modern UI for deploying, scal
 - ✅ **Environment Variables** - Configure app environment
 - ✅ **Status Monitoring** - Real-time deployment and pod status
 
+## Screenshots
+
+### Application Home Page
+
+The deployment form with all configurable options for creating new deployments.
+
+![Application Home Page](screenshots/app-homepage.png)
+
+### Deployment Created
+
+After deploying an application, it appears in the deployments list with status and replica information.
+
+![Deployment Created](screenshots/app-with-deployment.png)
+
+### Deployment Details with Pods
+
+Click on a deployment to view detailed information including individual pod status, CPU usage, and memory consumption.
+
+![Deployment Details with Pods](screenshots/app-deployment-details.png)
+
 ## Tech Stack
 
 - **Backend**: FastAPI with Kubernetes-style mock API
